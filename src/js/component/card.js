@@ -5,13 +5,10 @@ import PropTypes from "prop-types";
 export function Card(props) {
 	return (
 		<div className="card" style={{ width: "18rem;" }}>
-			<img src="..." className="card-img-top" alt="..." />
+			<img src={props.img} className="card-img-top" alt="..." />
 			<div className="card-body">
 				<h5 className="card-title">{props.title}</h5>
-				<p className="card-text">
-					Some quick example text to build on the card title and make
-					up the bulk of the cards content.
-				</p>
+				<p className="card-text">{props.desc}</p>
 				<a href="#" className="btn btn-primary">
 					Go somewhere
 				</a>
@@ -21,5 +18,7 @@ export function Card(props) {
 }
 
 Card.propTypes = {
-	title: PropTypes.string
+	title: PropTypes.string,
+	img: PropTypes.string,
+	desc: PropTypes.string
 };
