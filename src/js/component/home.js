@@ -30,13 +30,15 @@ const data = [
 	},
 	{
 		cardTitle: "Barcelona",
-		cardDescription: " description",
+		cardDescription:
+			" Barcelona, the cosmopolitan capital of Spain’s Catalonia region, is known for its art and architecture. The fantastical Sagrada Família church and other modernist landmarks designed by Antoni Gaudí dot the city. Museu Picasso and Fundació Joan Miró feature modern art by their namesakes.",
 		cardImg:
 			"https://news.artnet.com/app/news-upload/2019/06/Sagrada-Familia-1024x683.jpg"
 	},
 	{
 		cardTitle: "Berlin",
-		cardDescription: " description",
+		cardDescription:
+			"Berlin, Germany’s capital, dates to the 13th century. Reminders of the city's turbulent 20th-century history include its Holocaust memorial and the Berlin Wall's graffitied remains.",
 		cardImg:
 			"https://www.planetware.com/photos-large/D/east-berlin-former.jpg"
 	}

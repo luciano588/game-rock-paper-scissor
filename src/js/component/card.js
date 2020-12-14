@@ -10,7 +10,7 @@ export function Card(props) {
 				<h5 className="card-title">{props.title}</h5>
 				<p className="card-text">{props.desc}</p>
 				<a href="#" className="btn btn-primary">
-					Go somewhere
+					Learn more
 				</a>
 			</div>
 		</div>
