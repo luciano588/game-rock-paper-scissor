@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "./navbar";
-import { Jumbotron } from "./jumbtron";
+import { Players } from "./jumbtron";
 import { Card } from "./card";
 import { Footer } from "./footer";
 
@@ -48,7 +48,7 @@ export function Home() {
 	return (
 		<div>
 			<Navbar />
-			<Jumbotron />
+			<Players />
 			<div className="container">
 				<div className="row">
 					{data.map((item, index) => {
